@@ -1,0 +1,837 @@
+db.publisher.insert({
+   pubnumber:100000,
+   name:'Random House Childrens Publishers UK ',
+   address:'61-63 Uxbridge Road, Ealing, London, W5 5SA '
+});
+
+db.publisher.insert({
+   pubnumber:100001,
+   name:'Penguin Books Ltd',
+   address:'20 Vauxhall Bridge Road, London, SW1V 2SA'
+});
+
+db.publisher.insert({
+   pubnumber:100002,
+   name:'Quercus Publishing',
+   address:'Quercus, Carmelite House, 50 Victoria Embankment, London, EC4Y 0DZ'
+});
+
+db.publisher.insert({
+   pubnumber:100003,
+   name:'Bloomsbury Publishing PLC',
+   address:'Bloomsbury Publishing Inc., 1385 Broadway, 5th Floor, New York, NY 10018'
+});
+
+db.publisher.insert({
+   pubnumber:100004,
+   name:'HarperCollins Publishers',
+   address:'The News Building, 1 London Bridge Street, London, SE1 9GF'
+});
+
+db.publisher.insert({
+   pubnumber:100005,
+   name:'Cornerstone',
+   address:'Cornerstone Book Publishers, PO Box 24652, New Orleans, LA 70184'
+});
+
+db.publisher.insert({
+   pubnumber:100007,
+   name:'Hodder & Stoughton General Division',
+   address:'Hodder & Stoughton Ltd., Carmelite House, 50 Victoria Embankment, London, EC4Y 0DZ'
+});
+
+db.publisher.insert({
+   pubnumber:100008,
+   name:'Random House USA Inc',
+   address:'Random House USA Inc, 1745 Broadway, New York, NY 10106, USA'
+});
+
+db.publisher.insert({
+   pubnumber:100009,
+   name:'Little, Brown Book Group',
+   address:'Hachette Carmelite House, 50 Victoria Embankment, London EC4Y 0DZ, United Kingdom'
+});
+
+db.publisher.insert({
+   pubnumber:100010,
+   name:'Chronicle Books',
+   address:'680 2nd St, San Francisco, CA 94107, USA'
+});
+
+db.publisher.insert({
+   pubnumber:100011,
+   name:'Penguin Books Australia',
+   address:'707 Collins St, Docklands VIC 3008, Australia'
+});
+
+db.publisher.insert({
+   pubnumber:100012,
+   name:'Orion Publishing Co',
+   address:'50 Victoria Embankment, London EC4Y 0LS, UK'
+});
+
+db.publisher.insert({
+   pubnumber:100013,
+   name:'Image Comics',
+   address:'Image Comics, Inc., 2701 NW Vaughn Street, Suite 780, Portland, Oregon 97210'
+});
+
+//AUTHORS
+db.author.insert({
+   authnumber:200000,
+   name:'Nicola Yoon',
+   biography:'Yoon grew up in Jamaica and in Brooklyn, New York. She majored in electrical engineering as an undergraduate in college. Taking a creative writing class as an elective got her hooked on writing. After graduation, she attended the Master of Creative Writing program at Emerson College.'
+});
+
+db.author.insert({
+   authnumber:200001,
+   name:'R.J. Palacio',
+   biography:'R. J. Palacio is a graphic designer by day and a writer by night. She lives in New York City with her family and a black dog called Bear. Her critically acclaimed debut novel, WONDER, has sold over a million copies worldwide and has spent over two years in the UK and US bestseller charts.'
+});
+
+db.author.insert({
+   authnumber:200002,
+   name:'George Orwell',
+   biography:'Eric Arthur Blair (1903-1950), better known by his pen-name, George Orwell, was born in India, where his father worked for the Civil Service. An author and journalist, Orwell was one of the most prominent and influential figures in twentieth-century literature. His unique political allegory Animal Farm was published in 1945, and it was this novel, together with the dystopia of Nineteen Eighty-Four (1949), which brought him world-wide fame. His novels and non-fiction include Burmese Days, Down and Out in Paris and London, The Road to Wigan Pier and Homage to Catalonia'
+});
+
+db.author.insert({
+   authnumber:200003,
+   name:'Jamie Oliver',
+   biography:'Jamie Oliver started cooking at his parents pub, The Cricketers in Clavering, Essex, at the age of eight, and has gone on to work with some of the top chefs. He founded Fifteen restaurant in London, and the associated charity, Fifteen Foundation, which trains disadvantaged young people to become chefs. There are now Fifteen restaurants in Cornwall, Amsterdam and Melbourne. Jamie has also launched a chain of high-street restaurants in the UK called Jamies Italian. He writes for publications in the UK and around the world, including his own Jamie Magazine, and he lives in London with his wife and their children.'
+});
+
+db.author.insert({
+   authnumber:200004,
+   name:'Anne Frank',
+   biography:'Anne Frank was born in 1929 in Germany. Her family moved to Amsterdam in 1933, and she died in the Bergen-Belsen concentration camp in 1945.'
+});
+
+db.author.insert({
+   authnumber:200005,
+   name:'Stieg Larsson',
+   biography:'Stieg Larsson was the editor-in-chief of the magazine Expo. He was a leading expert on anti-democratic, right-wing extremist organisations. He died in 2004, soon after delivering the text of the novels that make up the Millennium Trilogy.'
+});
+
+db.author.insert({
+   authnumber:200007,
+   name:'JK Rowling',
+   biography:"J.K. Rowling is the author of the bestselling Harry Potter series of seven books, published between 1997 and 2007, which have sold over 450 million copies worldwide, are distributed in more than 200 territories, translated into 74 languages, and have been turned into eight blockbuster films. She has also written two small volumes, which appear as the titles of Harry's schoolbooks within the novels. Fantastic Beasts and Where to Find Them and Quidditch Through The Ages were published by Bloomsbury Children's Books in March 2001 in aid of Comic Relief. In December 2008, The Tales of Beedle the Bard was published in aid of the Children's High Level Group, and quickly became the fastest selling book of the year As well as an OBE for services to children's literature, J.K. Rowling is the recipient of numerous awards and honorary degrees including the Prince of Asturias Award for Concord, France's Légion d'Honneur, and the Hans Christian Andersen Award, and she has been a Commencement Speaker at Harvard University USA. She supports a wide number of charitable causes through her charitable trust Volant, and is the founder of Lumos, a charity working to transform the lives of disadvantaged children"
+});
+
+db.author.insert({
+   authnumber:200008,
+   name:'Sarah J. Maas',
+   biography:"SARAH J. MAAS is the author of the #1 New York Times bestseller A Court of Mist and Fury, and its prequel, A Court of Thorns and Roses. She is also the author of the New York Times bestselling Throne of Glass series - Throne of Glass, Crown of Midnight, Heir of Fire, Queen of Shadows and Empire of Storms, and the series' prequel, The Assassin's Blade. Her books have sold in over thirty languages. A New York native, Sarah currently lives in Pennsylvania with her husband and dog."
+});
+
+db.author.insert({
+   authnumber:200009,
+   name:'Colleen Oakes',
+   biography:"Colleen Oakes is the bestselling author of books for both teens and adults, including The Elly in Bloom Series, and The Wendy Darling Saga. She lives in North Denver with her husband and son and surrounds herself with the most lovely family and friends imaginable. When not penning new books, Colleen can be found swimming, travelling, reading or advocating for adoption and literacy."
+});
+
+db.author.insert({
+   authnumber:200010,
+   name:'Harper Lee',
+   biography:"Harper Lee was born in 1926 in Monroeville, Alabama. She attended Huntingdon College and studied law at the University of Alabama. She is the author of the acclaimed To Kill a Mockingbird, and was awarded the Pulitzer Prize, the Presidential Medal of Freedom and numerous other literary awards and honours. She died on 19 February 2016."
+});
+
+db.author.insert({
+   authnumber:200011,
+   name:'Jane Austen'
+});
+
+db.author.insert({
+   authnumber:200012,
+   name:'Stephen King',
+   biography:"Stephen King has been described by the Guardian as 'one of the greatest storytellers of our time', by the Mirror as a 'genius' and by The Sunday Times as 'one of the most fertile storytellers of the modern novel.' In 2003, he was given the National Book Foundation Medal for Distinguished Contribution to American Letters. He lives with his wife, the novelist Tabitha King, for most of the year in Maine, USA"
+});
+
+
+db.author.insert({
+   authnumber:200013,
+   name:'M.R. Carey',
+   biography:"M. R. Carey is a pen name for an established British writer of prose fiction and comic books. He has written for both DC and Marvel, including critically acclaimed runs on X-Men and Fantastic Four, Marvel's flagship superhero titles. His creator-owned books regularly appear in the New York Times graphic fiction bestseller list. He also has several previous novels and one Hollywood movie screenplay to his credit."
+});
+
+db.author.insert({
+   authnumber:200014,
+   name:'Becky Chambers',
+   biography:"Becky Chambers was raised in California as the progeny of an astrobiology educator, an aerospace engineer, and an Apollo-era rocket scientist. An inevitable space enthusiast, she made the obvious choice of studying performing arts. After a few years in theatre administration, she shifted her focus toward writing. Her creative work has appeared at The Mary Sue, Tor.com, Five Out Of Ten, The Toast, and Pornokitsch."
+});
+
+db.author.insert({
+   authnumber:200015,
+   name:'Chronicle Books'
+});
+
+db.author.insert({
+   authnumber:200016,
+   name:'Julia Donaldson',
+   biography:"Julia Donaldson lives in Glasgow, Scotland."
+});
+
+db.author.insert({
+   authnumber:200017,
+   name:'Kate Harrison',
+   biography:"Before becoming a novelist, Kate Harrison worked for a news agency, reporting mainly for the national tabloids. She then moved to the BBC where she was a reporter in regional news in Bristol and Birmingham, producer on NEWSROUND, and worked on PANORAMA and other investigative/consumer shows and documentaries.Kate Harrison writes fiction and non-fiction: her novels include The Secret Shopper's Revenge, Brown Owls Guide to Life and the Soul Beach thriller trilogy, her young adult series. She is also the author of the bestselling The 5:2 Diet Book, plus three other 5:2 Books"
+});
+
+//GENRE
+db.genre.insert({
+   name:"Children's Fiction",
+   decription:"Children's fiction or juvenile literature includes stories, books, magazines, and poems that are enjoyed by children. Modern children's fiction is classified in two different ways: genre or the intended age of the reader."
+});
+
+db.genre.insert({
+   name:"Contemporary Fiction",
+   description:"Contemporary fiction creates imaginary characters and situations that depict our world and society. It focuses on themes of growing up and confronting personal and social problems."
+});
+
+db.genre.insert({
+   name:"Autobiography",
+   description:"An autobiography is the story of one person's life, written by that person. It is usually told in first-person point of view and covers the author's entire life"
+});
+
+db.genre.insert({
+   name:"Fiction",
+   description:"Genre fiction, also known as popular fiction, is plot-driven fictional works written with the intent of fitting into a specific literary genre, in order to appeal to readers and fans already familiar with that genre"
+});
+
+db.genre.insert({
+   name:"Science Fiction",
+   description:"Science fiction describes futuristic settings, settings based in outer space, different worlds or dimensions that are often based upon existing or fictionalized scientific principles.  It is not wholly based upon imagination as is the fantasy genre.  "
+});
+
+db.genre.insert({
+   name:"Fantasy",
+   description:" Fantasy tells imaginary tales of make believe lands, creatures and people.  Magic is often a major facet in fantasy and readers must willingly enter the writer’s realm to understand this other world.  Fantasy will usually develop characters who wrestle with the nature of good and evil.  Many of the themes of fantasy can be reflected in the contemporary genre but the setting and the characters extend beyond the confined of realistic fiction"
+});
+
+db.genre.insert({
+   name:"Romance",
+   description:"Novels of this type of genre fiction place their primary focus on the relationship and romantic love between two people, and must have an emotionally satisfying and optimistic ending."
+});
+
+
+db.genre.insert({
+   name:"Horror",
+   description:"The horror genre emerges from the fantasy genre.  It concentrates on the dark aspects of  fantasy and its goal is to frighten the reader.  Its pages are populated by demons, vampires and ghosts and its settings are usually dark and isolated locations.  As in the fantasy genre, readers have to engage willingly with the text and to use their imaginations.  A common attribute in horror literature is the battle between the hero(ine) and the forces of evil"
+});
+
+db.genre.insert({
+   name:"Thriller",
+   description:"Thrillers are characterized and defined by the moods they elicit, giving viewers heightened feelings of suspense, excitement, surprise, anticipation and anxiety."
+});
+
+db.genre.insert({
+   name:"Health and Lifestyle",
+   description:"A focus on healthy living and a healthy lifestyle."
+});
+
+
+//CUSTOMER
+db.customer.insert({
+   name:"Emma Ni Bhriain",
+   address_1:"24 Seaview Road",
+   address_2:"Waterford",
+   country:"Ireland",
+   postcode:"X91H2K",
+   "email":"enibhriain@gmail.com"
+});
+
+db.customer.insert({
+  name:"Rachel Dunphy",
+  address_1:"Daisy Forest",
+  address_2:"Wicklow",
+  country:"Ireland",
+  postcode:"H31G4H5",
+  "email":"rdunphy@gmail.com"
+});
+
+db.customer.insert({
+  name:"Anne Byrne",
+  address_1:"59 Ingleby",
+  address_2:"Derby",
+  country:"UK",
+  postcode:"I95F5H4",
+  email:"ederrettinn-2103@yopmail.com"
+});
+
+db.customer.insert({
+  name:"Rita McCambridge",
+  address_1:"13 Rosebank",
+  address_2:"PortLaois",
+  country:"Ireland",
+  postcode:"DE23 8DL",
+  email:"falefahaby-4375@yopmail.com"
+});
+
+db.customer.insert({
+  name:"Henry HB",
+  address_1:"1 Saunders St,",
+  address_2:"Southport",
+  country:"UK",
+  postcode:"PR9 0HR",
+  email:"tecuddessott-6622@yopmail.com"
+});
+
+db.customer.insert({
+  name:"Donal Hovis",
+  address_1:"2 Beech Grove",
+  address_2:"Epsom",
+  country:"UK",
+  postcode:"KT18 5UD",
+  email:"uppummubiff-4079@yopmail.com"
+});
+
+db.customer.insert({
+  name:"Isaac Brennan",
+  address_1:"7 Dunstable Rd",
+  address_2:"Luton",
+  country:"UK",
+  postcode:"LU1 1BB",
+  email:"guteteffy-0372@yopmail.com"
+});
+
+db.customer.insert({
+  name:"Michael Cadbury",
+  address_1:"2 The Square",
+  address_2:"East Cowton",
+  country:"UK",
+  postcode:"DL7 0DL",
+  email:"cadbury@cadbury.ie"
+});
+
+db.book.insert({
+  book_id:50054000,
+  title:"Everything, Everything",
+  cost:6.75,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Emma Ni Bhriain",
+      count:4
+    },
+    {
+      customer:"Anne Byrne",
+      count:2
+    }
+  ],
+  author_name:"Nicola Yoon",
+  publisher_name:"Random House Childrens Publishers UK",
+  publication_date:new Date("2016-06-28"),
+  bestseller_rank:188,
+  genre_name:"Children's Fiction",
+  description:"Zoella Maddy is allergic to the world; stepping outside the sterile sanctuary of her home could kill her. But then Olly moves in next door. And just like that, Maddy realizes there's more to life than just being alive. You only get one chance at first love. And Maddy is ready to risk everything, everything to see where it leads."
+})
+
+db.book.insert({
+  book_id:50054001,
+  title:"Wonder",
+  cost:6.40,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Donal Hovis",
+      count:4.5
+    },
+    {
+      customer:"Anne Byrne",
+      count:2
+    }
+  ],
+  author_name:"R.J. Palacio",
+  publisher_name:"Random House Childrens Publishers UK",
+  publication_date:new Date("2013-03-01"),
+  bestseller_rank:11,
+  genre_name:"Children's Fiction",
+  description:"'My name is August. I won't describe what I look like. Whatever you're thinking, it's probably worse.' Auggie wants to be an ordinary ten-year-old. He does ordinary things - eating ice cream, playing on his Xbox. He feels ordinary - inside. But ordinary kids don't make other ordinary kids run away screaming in playgrounds. Ordinary kids aren't stared at wherever they go. Born with a terrible facial abnormality, Auggie has been home-schooled by his parents his whole life. Now, for the first time, he's being sent to a real school - and he's dreading it. All he wants is to be accepted - but can he convince his new classmates that he's just like them, underneath it all?"
+})
+
+db.book.insert({
+  book_id:50054002,
+  title:"1984",
+  cost:17.50,
+  format:"Hardback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Donal Hovis",
+      count:4.3
+    },
+    {
+      customer:"Anne Byrne",
+      count:5
+    }
+  ],
+  author_name:"George Orwell",
+  publisher_name:"Penguin Books Ltd",
+  publication_date:new Date("2008-10-01"),
+  bestseller_rank:6670,
+  genre_name:"Contemporary Fiction",
+  description:"In 1984, London is a grim city where Big Brother is always watching you and the Thought Police can practically read your mind. Winston Smith joins a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be."
+})
+
+db.book.insert({
+  book_id:50054003,
+  title:"5 Ingredients- Quick and East Food",
+  cost:20.31,
+  format:"Hardback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Emma Ni Bhriain",
+      count:3
+    },
+    {
+      customer:"Donal Hovis",
+      count:5
+    }
+  ],
+  author_name:"Jamie Oliver",
+  publisher_name:"Penguin Books Ltd",
+  publication_date:new Date("2017-09-05"),
+  bestseller_rank:1,
+  genre_name:"Health and Lifestyle",
+  description:"Every recipe uses just five key ingredients, ensuring you can get a plate of food together fast, whether it's finished and on the table super-quickly, or after minimal hands-on prep, you've let the oven do the hard work for you. We're talking quality over quantity, a little diligence on the cooking front, and in return massive flavour. Each recipe has been tried and tested (and tested again!) to ensure the book is packed with no-fuss, budget-friendly dishes that you can rustle up, any day of the week.With over 130 recipes, and chapters on Chicken, Beef, Pork, Lamb, Fish, Eggs, Veg, Salads, Pasta, Rice and Noodles and Sweet Things, there's plenty of quick and easy recipe inspiration to choose from."
+})
+
+db.book.insert({
+  book_id:50054004,
+  title:"The Diary of a Young Girl",
+  cost:5.51,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Emma Ni Bhriain",
+      count:4
+    },
+    {
+      customer:"Rachel Dunphy",
+      count:2
+    }
+  ],
+  author_name:"Anne Frank",
+  publisher_name:"Penguin Books Ltd",
+  publication_date:new Date("2016-08-10"),
+  bestseller_rank:638,
+  genre_name:"Autobiography",
+  description:"For almost fifty years, Anne Frank's diary has moved millions with its testament to the human spirit's indestructibility, but readers have never seen the full text of this beloved book--until now. This new translation, performed by Winona Ryder, restores nearly one third of Anne's entries excised by her father in previous editions, revealing her burgeoning sexuality, her stormy relationship with her mother, and more."
+})
+
+
+db.book.insert({
+  book_id:50054005,
+  title:"The Girl Who Played With Fire",
+  cost:14.08,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rachel Dunphy",
+      count:4.2
+    },
+    {
+      customer:"Henry HB",
+      count:3.5
+    }
+  ],
+  author_name:"Stieg Larsson",
+  publisher_name:"Quercus Publishing",
+  publication_date:new Date("2016-06-04"),
+  bestseller_rank:18286,
+  genre_name:"Fiction",
+  description:"Millennium publisher Mikael Blomkvist has made his reputation exposing corrupt establishment figures. So when a young journalist approaches him with an investigation into sex trafficking, Blomkvist cannot resist waging war on the powerful men behind this lucrative industry. When the journalist and his girlfriend are found murdered in their apartment, Lisbeth Salander's fingerprints are found on the weapon left at the scene. Now hunted by the entire Swedish police force and officially branded a danger to society, she is forced to go undercover. But how can she prove her innocence? With her computer-hacking skills she is anything but the helpless victim."
+})
+
+db.book.insert({
+  book_id:50054006,
+  title:"Deadly Class Volume 1: Reagan Youth",
+  cost:8.25,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rachel Dunphy",
+      count:3.9
+    },
+    {
+      customer:"Rita McCambridge",
+      count:2.7
+    }
+  ],
+  author_name:"Rick Remender",
+  publisher_name:"Image Comics",
+  publication_date:new Date("2015-06-04"),
+  bestseller_rank:8503,
+  genre_name:"Science Fiction",
+  description:"Welcome to the most brutal high school on earth, where the world's top crime families send the next generation of assassins to be trained. Murder is an art. Killing is a craft. At Kings Dominion School for the Deadly Arts, the dagger in your back isn't always metaphorical."
+})
+
+db.book.insert({
+  book_id:50054007,
+  title:"Harry Potter and the Prisoner of Azkaban- Illustrated Edition",
+  cost:31.44,
+  format:"Hardback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Donal Hovis",
+      count:4.5
+    },
+    {
+      customer:"Rita McCambridge",
+      count:4.7
+    }
+  ],
+  author_name:"JK Rowling",
+  publisher_name:"Bloomsbury Publishing PLC",
+  publication_date:new Date("2017-10-03"),
+  bestseller_rank:3891,
+  genre_name:"Fantasy",
+  description:"For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort. Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkaban guards heard Black muttering in his sleep, 'He's at Hogwarts . . . he's at Hogwarts.' Harry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst."
+})
+
+
+db.book.insert({
+  book_id:50054008,
+  title:"Throne of Glass",
+  cost:6.91,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Emma Ni Bhriain",
+      count:4.2
+    },
+    {
+      customer:"Donal Hovis",
+      count:4.9
+    }
+  ],
+  author_name:"Sarah J. Maas",
+  publisher_name:"Bloomsbury Publishing PLC",
+  publication_date:new Date("2015-08-31"),
+  bestseller_rank:375,
+  genre_name:"Fiction",
+  description:"Meet Celaena Sardothien. Beautiful. Deadly. Destined for greatness. In the dark, filthy salt mines of Endovier, an eighteen-year-old girl is serving a life sentence. She is a trained assassin, the best of her kind, but she made a fatal mistake. She got caught. Young Captain Westfall offers her a deal: her freedom in return for one huge sacrifice. Celaena must represent the prince in a to-the-death tournament - fighting the most gifted thieves and assassins in the land. Live or die, Celaena will be free. Win or lose, she is about to discover her true destiny. But will her assassin's heart be melted?"
+})
+
+db.book.insert({
+  book_id:50054009,
+  title:"Queen of Hearts",
+  cost:7.21,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rita McCambridge",
+      count:3.6
+    },
+    {
+      customer:"Henry HB",
+      count:3.5
+    }
+  ],
+  author_name:"Colleen Oakes",
+  publisher_name:"HarperCollins Publishers",
+  publication_date:new Date("2016-05-05"),
+  bestseller_rank:74450,
+  genre_name:"Fantasy",
+  description:"Dinah is a princess, the future Queen of Hearts, who will one day reign over Wonderland. Unaware of the dark depths of her kingdom; she longs only for her father's approval and to reign with the boy she loves. But when a betrayal breaks her heart and threatens her throne, Dinah is launched into the dangers of Wonderland. She must stay one step ahead of her enemies or she'll lose not just the crown, it will be off with her head! Evil is brewing in Wonderland, and maybe, most frighteningly, in Dinah herself. The first in an epic, imaginative series tells the origin of one of the most infamous villains - the Queen of Hearts."
+})
+
+db.book.insert({
+  book_id:50054010,
+  title:"To Kill a Mockingbird",
+  cost:15.59,
+  format:"Hardback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Henry HB",
+      count:4.3
+    },
+    {
+      customer:"Donal Hovis",
+      count:4.1
+    }
+  ],
+  author_name:"Harper Lee",
+  publisher_name:"Cornerstone",
+  publication_date:new Date("2015-06-17"),
+  bestseller_rank:4417,
+  genre_name:"Contemporary Fiction",
+  description:"'Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.' Atticus Finch gives this advice to his children as he defends the real mockingbird of this classic novel - a black man charged with attacking a white girl. Through the eyes of Scout and Jem Finch, Lee explores the issues of race and class in the Deep South of the 1930s with compassion and humour. She also creates one of the great heroes of literature in their father, whose lone struggle for justice pricks the conscience of a town steeped in prejudice and hypocrisy"
+})
+
+db.book.insert({
+  book_id:5005411,
+  title:"Pride and Prejudice",
+  cost:10.59,
+  format:"Audio",
+  language:"English",
+  ratings:[
+    {
+      customer:"Emma Ni Bhriain",
+      count:4.4
+    },
+    {
+      customer:"Donal Hovis",
+      count:3.7
+    }
+  ],
+  author_name:"Jane Austen",
+  publisher_name:"Scholastic",
+  publication_date:new Date("2015-05-07"),
+  bestseller_rank:222511,
+  genre_name:"Romance",
+  description:"When Elizabeth Bennet first meets eligible bachelor Fitzwilliam Darcy, she thinks him arrogant and conceited; he is indifferent to her good looks and lively mind. When she discovers that Darcy has involved himself in the troubled relationship between his friend Bingley and her beloved sister Jane, she is determined to dislike him more than ever. In the sparkling comedy of manners that follows, Jane Austen shows the folly of judging by first impressions and superbly evokes the friendships, gossip and snobberies of provincial middle-class life."
+})
+
+db.book.insert({
+  book_id:50054012,
+  title:"IT",
+  cost:10.73,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Henry HB",
+      count:2.1
+    },
+    {
+      customer:"Donal Hovis",
+      count:2
+    }
+  ],
+  author_name:"Stephen King",
+  publisher_name:"Hodder & Stoughton General Division",
+  publication_date:new Date("2011-07-26"),
+  bestseller_rank:189,
+  genre_name:"Horror",
+  description:"To the children, the town was their whole world. To the adults, knowing better, Derry Maine was just their home town: familiar, well-ordered for the most part. A good place to live.It is the children who see - and feel - what makes the small town of Derry so horribly different. In the storm drains, in the sewers, IT lurks, taking on the shape of every nightmare, each one's deepest dread. Sometimes IT reaches up, seizing, tearing, killing . . .Time passes and the children grow up, move away and forget. Until they are called back, once more to confront IT as IT stirs and coils in the sullen depths of their memories, reaching up again to make their past nightmares a terrible present reality."
+})
+
+db.book.insert({
+  book_id:50054013,
+  title:"The Shining",
+  cost:7.67,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rita McCambridge",
+      count:4.5
+    },
+    {
+      customer:"Donal Hovis",
+      count:1.6
+    }
+  ],
+  author_name:"Stephen King",
+  publisher_name:"Random House USA Inc",
+  publication_date:new Date("2012-06-26"),
+  bestseller_rank:516,
+  genre_name:"Horror",
+  description:"Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote . . . and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old."
+})
+
+db.book.insert({
+  book_id:50054014,
+  title:"The Girl with All The Gifts",
+  cost:14.08,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Anne Byrne",
+      count:4.1
+    },
+    {
+      customer:"Isaac Brennan",
+      count:1.6
+    }
+  ],
+  author_name:"M.R. Carey",
+  publisher_name:"Little, Brown Book Group",
+  publication_date:new Date("2014-06-20"),
+  bestseller_rank:11266,
+  genre_name:"Thriller",
+  description:"Every morning, Melanie waits in her cell to be collected for class.When they come for her, Sergeant Parks keeps his gun pointing at her while two of his people strap her into the wheelchair. She thinks they don't like her. She jokes that she won't bite. But they don't laugh.Melanie is a very special girl."
+})
+
+db.book.insert({
+  book_id:50054015,
+  title:"The Long Way to a Small, Angry Planet",
+  cost:22.53,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Anne Byrne",
+      count:4.1
+    },
+    {
+      customer:"Isaac Brennan",
+      count:2.4
+    }
+  ],
+  author_name:"Becky Chambers",
+  publisher_name:"Hodder & Stoughton General Division",
+  publication_date:new Date("2015-12-31"),
+  bestseller_rank:8332,
+  genre_name:"Science Fiction",
+  description:"When Rosemary Harper joins the crew of the Wayfarer, she isn't expecting much. The Wayfarer, a patched-up ship that's seen better days, offers her everything she could possibly want: a small, quiet spot to call home for a while, adventure in far-off corners of the galaxy, and distance from her troubled past.But Rosemary gets more than she bargained for with the Wayfarer. The crew is a mishmash of species and personalities, from Sissix, the friendly reptillian pilot, to Kizzy and Jenks, the constantly sparring engineers who keep the ship running. Life on board is chaotic, but more or less peaceful - exactly what Rosemary wants.Until the crew are offered the job of a lifetime: the chance to build a hyperspace tunnel to a distant planet. They'll earn enough money to live comfortably for years... if they survive the long trip through war-torn interstellar space without endangering any of the fragile alliances that keep the galaxy peaceful. But Rosemary isn't the only person on board with secrets to hide, and the crew will soon discover that space may be vast, but spaceships are very small indeed."
+})
+
+db.book.insert({
+  book_id:50054016,
+  title:"One Line a Day",
+  cost:10.53,
+  format:"Calendar",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rachel Dunphy",
+      count:4.4
+    },
+    {
+      customer:"Michael Cadbury",
+      count:4.6
+    }
+  ],
+  publisher_name:"Chronicle Books",
+  publication_date:new Date("2015-03-24"),
+  bestseller_rank:213,
+  genre_name:"Stationery",
+  description:"This memory-keeper let's the user track the moments of their life day by day. The 365 daily entries appear five times on each page, allowing users to revisit previous thoughts and memories over five years as they return to each page to record the current day's events. Durable and elegantly designed, this diary is sure to be a treasured addition to any desktop, bedside or bookshelf."
+})
+
+db.book.insert({
+  book_id:50054017,
+  title:"Room on the Broom",
+  cost:5.76,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Rita McCambridge",
+      count:4.1
+    },
+    {
+      customer:"Donal Hovis",
+      count:3.5
+    }
+  ],
+  author_name:"Julia Donaldson",
+  publisher_name:"Penguin Books Australia",
+  publication_date:new Date("2003-08-25"),
+  bestseller_rank:83,
+  genre_name:"Children's Fiction",
+  description:"The witch and her cat are happily flying through the sky on a broomstick when the wind picks up and blows away the witch's hat, then her bow, and then her wand! Luckily, three helpful animals find the missing items, and all they want in return is a ride on the broom. But is there room on the broom for so many friends? And when disaster strikes, will they be able to save the witch from a hungry dragon?"
+})
+
+db.book.insert({
+  book_id:50054018,
+  title:"The 5:2 Diet Book",
+  cost:16.90,
+  format:"Paperback",
+  language:"English",
+  ratings:[
+    {
+      customer:"Henry HB",
+      count:2.7
+    },
+    {
+      customer:"Isaac Brennan",
+      count:3.1
+    }
+  ],
+  author_name:"Kate Harrison",
+  publisher_name:"Orion Publishing Co",
+  publication_date:new Date("2013-02-14"),
+  bestseller_rank:25484,
+  genre_name:"Health and Lifestyle",
+  description:"The 5:2 Diet will transform your body, your mind and your health. It's the revolutionary part-time weight loss diet with lifelong health and anti-ageing results. This is the simplest, most flexible and most health enhancing weight loss programme you'll ever follow - and with this book to guide you, you can start today. You'll still get to eat all the foods you love but enjoy incredible health benefits, with positive effects on cancer, heart disease, Alzheimer's and more.Intermittent fasting is revolutionising the weight loss world. Simply by eating significantly less for one or two days a week you can trigger incredible physical and mental changes that protect your body and brain from damage and help it repair itself"
+})
+
+
+//ORDER
+db.order.insert({
+  customer:"Donal Hovis",
+  payment_type:"Visa Debit",
+  card_number:4319867564758697,
+  cvv:999,
+  card_expiry_date:new Date("2019-06-15"),
+  payment_date:new Date("2015-09-11"),
+  products:[
+    {
+      name:"Pride and Prejudice",
+      cost:10.59
+    }
+  ],
+  total_cost:10.59
+})
+
+db.order.insert({
+  customer:"Donal Hovis",
+  payment_type:"Visa Debit",
+  card_number:4319867564758697,
+  cvv:999,
+  card_expiry_date:new Date("2019-06-15"),
+  payment_date:new Date("2015-09-11"),
+  products:[
+    {
+      name:"1984",
+      cost:17.50
+    },
+    {
+      name:"Wonder",
+      cost:6.40
+    }
+  ],
+  total_cost:23.90
+})
+
+db.order.insert({
+  customer:"Rita McCambridge",
+  payment_type:"Mastercard",
+  card_number:4319541263547896,
+  cvv:456,
+  card_expiry_date:new Date("2020-07-26"),
+  payment_date:new Date("2017-08-12"),
+  products:[
+    {
+      name:"Harry Potter and the Prisoner of Azkaban- Illustrated Edition",
+      cost:31.44
+    },
+    {
+      name:"Queen of Hearts",
+      cost:7.21
+    }
+  ],
+  total_cost:38.65
+})
+
+db.order.insert({
+  customer:"Anne Byrne",
+  payment_type:"Mastercard",
+  card_number:4319658745621235,
+  cvv:112,
+  card_expiry_date:new Date("2020-02-2"),
+  payment_date:new Date("2015-02-10"),
+  products:[
+    {
+      name:"The Girl with All the Gifts",
+      cost:14.08
+    }
+  ],
+  total_cost:14.08
+})
+
